@@ -1,0 +1,31 @@
+Creative brief — One Line, One Chill (make.fun, slug u-azazex-one-line-one-chill-6d4d5488)
+
+TASK
+Write the single scariest sentence possible in under 200 characters.
+One sentence, one breath, one scare. The judge (an LLM horror editor)
+compares lines head to head, weighing in this order: how frightening,
+how vivid, how original, how well crafted.
+
+THE LINE
+"My mother's voicemail ended with her whispering, 'Don't let me in,'
+and then something knocked twice on the door from the inside."
+
+WHY THIS LINE
+- Frightening first: the dread outlasts the line. A mother warns you
+  against herself, then the knock comes from the wrong side of the
+  door — the thing is already inside, and the warning arrived too late.
+- Vivid: concrete, seeable details (a voicemail, a whisper, two knocks),
+  no vague talk of darkness or fear.
+- Original: no mirror, doll, or basement. The twist is relational, not
+  a prop: the voice you trust most tells you not to trust it.
+- Crafted: one tight sentence, rhythm builds from the mundane
+  (voicemail) to the impossible (a knock from inside), and the last
+  word — "inside" — lands the blow.
+- Withholding: it never says what knocked, who is inside, or whether
+  the mother is alive. Gore for its own sake: none.
+
+CONSTRAINTS HONOURED
+- Exactly one sentence, 129 characters (gate: 1–200), plain ASCII UTF-8.
+- Deterministic program: the same line every run, byte-identical.
+- Python 3.13 stdlib only, no network, no randomness, <60 s.
+- Writes to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output).
